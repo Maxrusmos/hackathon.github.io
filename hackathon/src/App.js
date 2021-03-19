@@ -1,10 +1,9 @@
 import './App.css';
+import Layout from './components/Layout/Layout';
 
 const App = (props) => {
   return (
-    <div>
-      РОМА
-    </div>
+    <Layout></Layout>
   );
 }
 
