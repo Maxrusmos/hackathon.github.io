@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
 import logo from './../../res/logo.png';
+import Search from './Search/Search';
 
 const Header = () => {
   return (
@@ -10,12 +11,7 @@ const Header = () => {
           <h1>RiversLevel</h1>  
           <img src={logo} alt="logo"/>
         </div>
-        <div className="headerContainer__search">
-          <input placeholder="Type here..." type="text"/>
-          <button type="submit" className="headerContainer__search__button">
-            Search
-          </button>
-        </div>
+        <Search></Search>
       </div>
     </>
   );
