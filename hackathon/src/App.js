@@ -2,8 +2,9 @@ import './App.css';
 import Layout from './components/Layout/Layout';
 
 const App = (props) => {
+  console.log();
   return (
-    <Layout></Layout>
+    <Layout rivers={props.appState.rivers}></Layout>
   );
 }
 

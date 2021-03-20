@@ -3,8 +3,9 @@
   justify-content: space-between;
   background: rgba(37, 39, 42, 0.95);
   height: 80px;
-  line-height: 50px;
+  line-height: 40px;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .headerContainer__logo {
@@ -12,7 +13,8 @@
 }
 
 .headerContainer__logo h1 {
-  font-size: 26px;
+  margin: 0;
+  font-size: 24px;
   margin-right: 12px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -21,6 +23,6 @@
 
 .headerContainer__logo img {
   object-fit: cover;
-  height: 50px;
+  height: 40px;
   margin: auto 0;
 }

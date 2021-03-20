@@ -7,7 +7,7 @@ const MainContentPart = (props) => {
   return (
     <>
       <div className="MainContentPartContainer">
-        <RiversTitlesTable></RiversTitlesTable>
+        <RiversTitlesTable rivers={props.rivers}></RiversTitlesTable>
         <InfoTable></InfoTable>
       </div>
     </>

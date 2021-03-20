@@ -1,0 +1,15 @@
+.riversTitlesTableContainer {
+  width: 30%;
+  border-right: 1px solid black;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.riversTitlesTableContainer__title {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+}
+

@@ -1,0 +1,13 @@
+.InfoTableContainer {
+  width: 70%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.InfoTableContainer__title{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+} 

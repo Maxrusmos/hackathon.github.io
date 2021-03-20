@@ -7,7 +7,7 @@ const Layout = (props) => {
   return (
     <>
       <Header></Header>
-      <MainContentPart></MainContentPart>
+      <MainContentPart rivers={props.rivers}></MainContentPart>
     </>
   );
 }
